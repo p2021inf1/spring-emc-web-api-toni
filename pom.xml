@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.emc</groupId>
-	<artifactId>spring-emc-web-api-jordi</artifactId>
+	<artifactId>spring-emc-web-api-toni</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-emc-web-api-jordi</name>
+	<name>spring-emc-web-api-toni</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>1.8</java.version>
@@ -49,7 +49,12 @@
 		    <groupId>org.springdoc</groupId>
 		    <artifactId>springdoc-openapi-ui</artifactId>
 		    <version>1.6.4</version>
-		</dependency>
+		</dependency>	
+	    <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>runtime</scope>
+        </dependency>
 	</dependencies>
 
 	<build>
